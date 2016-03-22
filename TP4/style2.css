@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	font-family:'Raleway';
+}
+header{
+	height: 50px;
+	padding: 14px 10px 25px 10px;
+}
+p{
+	font-family: 'Open Sans';
+}
+h2{
+	font-size: 30px;
+}
+ul{
+	list-style: none;
+}
+sup{
+	font-size: 20px;
+}
+.menu{
+	display: inline;
+}
+.menu img{
+	padding: 16px 10px;
+}
+.menu ul{
+	display: inline;
+	float: right;
+	margin-top: 21px;
+}
+.menu li{
+	display: inline;
+	padding-right: 20px;
+}
+.menu li a{
+	font-family: 'Raleway';
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+#intro-contact{
+	background-image: url('assets/indexbanner-bg2.jpg');
+	background-size: cover;
+	height: 20em;
+	text-align: center;
+	color: #fff;
+	padding-top: 130px;
+}
+#intro-contact h3, #contact h3{
+	font-size: 30px;
+	margin: 0;
+}
+#intro-contact p, #contact p{
+	font-size: 12px;
+	line-height:0.8;
+}
+#contact{
+	text-align: center;
+	padding: 5em 0 4em 0;
+}
+form{
+	width: 750px;
+    height: auto;
+    margin: 50px auto;
+    display: inline-block;
+}
+.left{
+	float: left;
+	width: 46%;
+}
+.left input{
+	width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+}
+.right{
+	float: right;
+	width: 46%;
+	margin-bottom: 30px;
+}
+.right textarea{
+	width: 100%;
+    height: 125px;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'Open Sans';
+}
+.boton{
+	clear: both;
+    width: 20%;
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #00AEF2;
+    color:#fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+   	border: none;
+   	cursor: pointer;
+}
+#hosting{
+	background: #142E3F;
+	text-align: center;
+	height: 90px;
+	padding-top: 60px;
+}
+#hosting a{
+	font-family: 'Open Sans';
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+#hosting span{
+	color: #00adf2;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+footer{
+	background:#091722;
+	color: #fff;
+	height: 80px;
+}
+footer p{ 
+	margin: 0;
+	padding-left: 20px;
+	float: left;
+	padding: 33px 0 0 20px;
+}
+footer nav{
+	float: right;
+	padding: 16px 20px 0 0;
+	text-align: right;
+}
+footer nav ul li{
+	display: inline;
+	padding-right: 30px;
+}
+footer nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
