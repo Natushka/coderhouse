@@ -4,8 +4,8 @@ body{
 	font-family:'Raleway';
 }
 header{
-	height: 50px;
-	padding: 14px 10px 5px 10px;
+	height: 35px;
+	padding: 0 125px 5px 125px;
 }
 p{
 	font-family: 'Open Sans';
@@ -23,16 +23,18 @@ sup{
 	display: block;
 }
 .menu img{
-	padding: 16px 10px;
+	padding: 15px 10px;
 }
 .menu ul{
 	display: inline;
 	float: right;
-	margin-top: 21px;
+	height: 30px;
+	margin: 0;
+	padding-top: 17px;
 }
 .menu li{
 	display: inline;
-	padding-right: 20px;
+	cursor: pointer;
 }
 .menu li a{
 	font-family: 'Raleway';
@@ -40,6 +42,12 @@ sup{
 	text-transform: uppercase;
 	color: #000;
 	text-decoration: none;
+	font-size: 12px;
+	padding: 25px;
+}
+.menu ul li a:hover{
+	color: #fff;
+	background-color:#00adf2;
 }
 #intro{
 	background-image: url('assets/indexbanner-bg3.jpg');
@@ -60,8 +68,10 @@ sup{
     margin: 180px 0 0 150px;
     padding:20px;
     background: #fff;
+    color: #000;
+    text-transform: inherit;
+    cursor:inherit;
     box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.3);
-
 }
 #intro input{
 	background-color: #00ADF2;
@@ -72,18 +82,33 @@ sup{
 	color: #fff;
 	font-size: 18px;
 	margin-left: -4px;
+	cursor: pointer;
 }
 #about {
-    padding: 100px 180px;
+    padding: 100px 210px;
 }
 #about div{
 	display: inline-block;
 	width: 200px;
     text-align: center;
-    padding: 0 20px;
+    padding: 0;
+}
+ .iconos:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.iconos {
+ -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
 }
 #about p{
 	font-size: 12px;
+}
+.img-about{
+	vertical-align: top;
+	padding-top: 35px;
 }
 #services {
 	text-align: center;
@@ -101,6 +126,7 @@ sup{
 }
 .info-right p, .info-left p {
 	font-size: 12px;
+	margin: 0;
 }
 .info-right ul, .info-left ul{
 	padding: 35px;
@@ -110,6 +136,7 @@ sup{
 }
 .info-right li{
 	text-align: left;
+	margin-bottom: 30px;
 }
 .info-right p{
 	padding-left: 60px;
@@ -123,6 +150,7 @@ sup{
 }
 .info-left li{
 	text-align: right;
+	margin-bottom: 30px;
 }
 .info-left p{
 	padding-right: 60px;
@@ -168,6 +196,7 @@ sup{
 	font-weight: 700;
 	font-size: 60px;
 	margin: 0;
+	height: 70px;
 }
 .price-cont table{
 	border-top: 1px solid #ECEDED;
@@ -192,6 +221,10 @@ sup{
 	border: none;
 	text-transform: uppercase;
 	border-radius: 7px;
+	cursor: pointer;
+}
+.price-cont button:hover{
+	background-color: #142e3f;
 }
 .blue{
 	color: #C1F2FA;
@@ -231,11 +264,13 @@ footer{
 	background:#091722;
 	color: #fff;
 	height: 80px;
+	padding: 0 140px;
 }
 footer p{ 
 	margin: 0;
 	float: left;
 	padding: 33px 0 0 20px;
+	font-size: 13px;
 }
 footer nav{
 	float: right;
@@ -249,4 +284,75 @@ footer nav ul li{
 footer nav ul li a{
 	text-decoration: none;
 	color: #fff;
+	font-size: 13px;
+}
+
+/*CONTACT PAGE*/
+
+#intro-contact{
+	background-image: url('assets/indexbanner-bg2.jpg');
+	background-size: cover;
+	height: 20em;
+	text-align: center;
+	color: #fff;
+	padding-top: 130px;
+	margin-top: 20px;
+}
+#intro-contact h3, #contact h3{
+	font-size: 30px;
+	margin: 0;
+}
+#intro-contact p, #contact p{
+	font-size: 12px;
+	line-height:0.8;
+}
+#contact{
+	text-align: center;
+	padding: 5em 0 4em 0;
+}
+.ctc-form{
+	width: 750px;
+    height: auto;
+    margin: 50px auto;
+    display: inline-block;
+}
+.left{
+	float: left;
+	width: 46%;
+}
+.left input{
+	width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+}
+.right{
+	float: right;
+	width: 46%;
+	margin-bottom: 30px;
+}
+.right textarea{
+	width: 100%;
+    height: 125px;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'Open Sans';
+}
+.boton{
+	clear: both;
+    width: 20%;
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #00AEF2;
+    color:#fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+   	border: none;
+   	cursor: pointer;
+}
+#hosting{
+	background: #142E3F;
+	text-align: center;
+	height: 90px;
+	padding-top: 60px;
 }
