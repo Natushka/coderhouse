@@ -56,16 +56,21 @@ sup{
 	color: #fff;
 }
 #intro h1{
-	padding: 150px 0 0 150px;
+	font-size: 40px;
 }
-#intro p{
-	padding-left: 150px;
+.intro-text{
+	position: relative;
+    top: 100px;
+    padding: 0 140px;
 }
 
+#intro form{
+	display: inline-block;
+    margin: 21% 11%;
+}
 #intro .searcher{
 	width: 48em;
     height: 5em;
-    margin: 180px 0 0 150px;
     padding:20px;
     background: #fff;
     color: #000;
@@ -95,7 +100,7 @@ sup{
 }
  .iconos:hover{ 
     -webkit-transform: scale(1.35);
-    transform: scale(1.35)
+    transform: scale(1.35);
 }
 .iconos {
  -webkit-transition: 1.3s ease-in-out;
@@ -115,7 +120,7 @@ sup{
 	height: 700px;
 }
 #services div{
-	width: 37%;
+	width: 36%;
 	display: inline;
 }
 #services h6{
@@ -245,7 +250,7 @@ sup{
 #hosting{
 	background: #142E3F;
 	text-align: center;
-	height: 90px;
+	height: 95px;
 	padding-top: 60px;
 }
 #hosting a{
@@ -350,9 +355,286 @@ footer nav ul li a{
    	border: none;
    	cursor: pointer;
 }
-#hosting{
-	background: #142E3F;
-	text-align: center;
-	height: 90px;
-	padding-top: 60px;
+
+@media print {
+  	header, #intro, footer {
+  		display: none;
+  	}
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	header{
+		padding: 0 0 25px;
+	}
+	.menu ul{
+		float: none;
+		padding: 0 120px 25px;
+	}
+
+	#intro {
+		background: url('assets/indexbanner-bg3.jpg') -211px 0 no-repeat;
+		background-size: 160%;
+
+	}
+	.intro-text{
+		top:149px;
+		padding: 0 25px;
+	}
+	.intro-text p{
+		font-weight: 300;
+	}
+	#intro form{
+		margin: 31% auto 0;
+		display: inherit;
+		text-align: center;
+	}
+	#intro .searcher{
+		width: 65%;
+	}
+
+	#about {
+    	padding: 100px 5%;
+	}
+	.img-about{
+		display: none;
+	}
+
+	#about div {
+    	display: inline-block;
+    	width: 45%;
+    	text-align: center;
+    	padding: 10px;
+	}
+	
+	.info-right ul, .info-left ul {
+    	padding: 50px 3px;
+	}
+	#services h6 {
+    	font-size: 15px
+	}
+	.info-right img, .info-left img {
+    	width: 40px;
+    }
+    .service-image img {
+    	width: 200px;
+    }
+    #pricing{
+    padding: 60px 0 178px 0;
+    background-size: contain;
+    }
+    .price-cont{
+    	width: 40%;
+    }
+    .price-cont table {
+    	margin: 50px 15px 20px;
+    }
+    .price-cont td {
+    	padding: 0 18%;
+    }
+    .price-cont button {
+    	width: 90%;
+    	height: 40px;
+    }
+    footer{
+    	padding: 25px 50px;
+    }
+    footer p{
+    	float: none;
+    	padding: 0;
+    	text-align: center;
+    }
+
+    footer nav{
+    	float: none;
+    	padding: 0 195px;
+    	text-align: center;
+    }
+
+    @media only screen and (max-width: 480px) {
+    
+    header{
+    	height: 85px;
+    	padding: 0;
+    }
+    .menu img {
+    	width: 117px;
+    }
+    .menu a{
+    	display: block;
+    	text-align: center;
+    }
+    .menu ul{
+    	padding: 0;
+    }
+	.menu li {
+		display: block;
+		text-align: center;
+	}
+	.menu ul li a{
+		padding: 5px;
+	}
+	#intro{
+		background: none;
+		height: auto;
+	}
+	.intro-text{
+		display: none;
+	}
+	#intro form {
+    	margin: 10% auto 0;
+    	display: inherit;
+    	text-align: center;
+	}
+	#intro input {
+		font-size: 14px;
+		width: 7em;
+    	height: 4em;
+	}
+	#intro .searcher {
+    	width: 65%;
+    	height: 4em;
+	}
+	#about{
+		padding: 60px 5%;
+	}
+	#about div {
+    	width: 43%;
+    	padding: 10px;
+    }
+	#about div h3{
+   	font-size: 13px;
+   }
+   #about div p{
+   	font-size: 11px;
+   }
+   #services{
+   	height: 96em;
+   }
+   #services div {
+   	width: 100%;
+   }
+   .info-left ul, .info-right ul{
+   	padding: 50px 30px;
+   }
+   .info-left li {
+   	text-align: left;
+   }
+   .info-left h6 {
+    	padding: 12px 0 0 20px;
+	}
+	.info-left p {
+    	padding: 5px 0 0 60px;
+	}
+   .info-left img{
+   		float: left;
+   }
+   #pricing{
+   		padding: 10px 0;
+   }
+   #pricing > p{
+   	    margin: 0;
+    	font-size: 13px;
+   }
+   #pricing img{
+   		display: none;
+   }
+   .price-cont{
+   		width: 45%;
+   		margin: 60px 4px;
+   }
+    .price-cont p{
+    	font-size: 45px;
+    	height: 47px;
+    }
+   .price-cont h3{
+   		margin: 35px 0 0 0;
+   		font-size: 11px;
+   }
+   .price-cont table{
+   		margin: 30px auto;
+   }
+   .price-cont td{
+   		padding: 0 5%;
+   }
+   .price-cont button {
+    	width: 90%;
+    	height: 40px;
+    }
+	#hosting{
+		padding: 60px 5px 0;
+	}
+   	#hosting a{
+   		font-size: 16px;
+   	}
+   	footer{
+   		padding: 5% 10%;
+   	}
+   	footer nav{
+   		padding: 0px 20px;
+   	}
+}
+@media only screen and (max-width: 320px) {
+
+	header{
+    	height: 85px;
+   		padding: 0;
+    }
+    .menu img {
+    	width: 117px;
+    }
+    .menu a{
+    	display: block;
+    	text-align: center;
+    }
+    .menu ul{
+    	padding: 0;
+    }
+	.menu li {
+		display: block;
+		text-align: center;
+	}
+	.menu ul li a{
+		padding: 5px;
+	}
+	#intro{
+		background: none;
+		height: auto;
+	}
+	#intro input {
+    	font-size: 12px;
+    	width: 7em;
+    	height: 55px;
+	}
+	.intro-text{
+		display: none;
+	}
+	#about{
+		padding: 60px 2%;
+	}
+	#about div {
+    	width: 100%;
+    	padding:0;
+    }
+    #about div p { 
+    	padding: 0 5px;
+    }
+    #pricing p{
+    	font-size: 10px;
+    }
+    #pricing h2{
+    	font-size: 25px;
+    	margin: 0;
+    }
+    .price-cont h3 {
+    	font-size: 11px;
+	}
+    .price-cont p{
+    	font-size: 45px;
+    	height: 47px;
+    }
+    footer{
+    	padding: 5% 3%;
+    }
 }
