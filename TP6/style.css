@@ -451,8 +451,9 @@ footer nav ul li a{
     	padding: 0 195px;
     	text-align: center;
     }
+}
 
-    @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     
     header{
     	height: 85px;
