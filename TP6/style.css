@@ -621,7 +621,7 @@ footer nav ul li a{
     #about div p { 
     	padding: 0 5px;
     }
-    #pricing p{
+    #pricing > p{
     	font-size: 10px;
     }
     #pricing h2{
