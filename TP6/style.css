@@ -361,7 +361,24 @@ footer nav ul li a{
   		display: none;
   	}
 }
+@media only screen and (max-width: 1024px) {
+  #intro {
+    background-position: -123px 0px; }
+    #intro form {
+      margin: 29% 11%; }
+    #intro .searcher {
+      width: 35em; }
+    #intro input {
+      width: 8em; }
 
+  #about {
+    padding: 12% 3%; }
+
+  #services div {
+    width: 34%; }
+
+  .price-cont {
+    width: 14em; } }
 
 @media only screen and (max-width: 768px) {
 
@@ -451,6 +468,21 @@ footer nav ul li a{
     	padding: 0 195px;
     	text-align: center;
     }
+
+    #intro-contact {
+    height: 10em; }
+
+  	#contact .ctc-form {
+    	width: 100%; }
+    #contact .ctc-form .left, #contact .ctc-form .right {
+      width: 100%;
+      float: none;
+      display: block; }
+    #contact .ctc-form .left input {
+      width: 75%; }
+    #contact .ctc-form .right textarea {
+      width: 77%;
+      margin-top: 28px; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -575,6 +607,21 @@ footer nav ul li a{
    	footer nav{
    		padding: 0px 20px;
    	}
+
+   	#intro-contact {
+    height: 10em;
+    padding-top: 60px; }
+
+  	#contact .ctc-form {
+    width: 100%; }
+    #contact .ctc-form .left, #contact .ctc-form .right {
+      width: 100%;
+      float: none;
+      display: block; }
+    #contact .ctc-form .left input {
+      width: 75%; }
+    #contact .ctc-form .right textarea {
+      width: 79%; }
 }
 @media only screen and (max-width: 320px) {
 
@@ -638,4 +685,10 @@ footer nav ul li a{
     footer{
     	padding: 5% 3%;
     }
+
+    .intro-contact {
+    padding: 60px 5px 0; }
+
+  	.ctc-form .boton {
+    width: 50%; }
 }

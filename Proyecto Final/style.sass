@@ -1,0 +1,486 @@
+$brown: #3B2314
+%headings
+	font-family: 'Pacifico'
+	color: #3B2314
+	text-align: center
+
+html, body
+	height: 100%
+	background: #F0EBDC
+
+h2
+	font-size: 60px
+	@extend %headings
+
+p 
+	font-family: 'Open Sans'
+	color: $brown
+
+a, a:visited , a:link
+	text-decoration: none
+	color: #000
+	font-family: 'Open Sans'
+button,  input.submit_sus , .submit
+	border: none
+	text-transform: uppercase
+
+button:hover,  input.submit_sus:hover, .submit:hover
+	letter-spacing: 2px
+.submit:hover, .submit_sus:hover, .img_sour:hover
+	opacity: 0.75
+
+.container-fluid
+	padding: 0
+
+img.img-responsive
+	margin: 0 auto
+
+.nav>li>a:hover
+
+	text-transform: underline
+	letter-spacing: 3px
+	background: none
+
+.hd-nav
+	text-align: center
+	li
+
+		a
+			text-transform: uppercase
+			color: $brown
+			font-family: 'Open Sans'
+			font-weight: 600
+			letter-spacing: 3px
+
+		a:hover
+			background: transparent
+			letter-spacing: 4px
+			font-weight: 800
+			font-size: 16px
+
+
+#home
+	background: url('images/bg1.jpg')
+	background-size: cover
+	height: 100%
+
+	img 
+		text-align: center
+
+	.intro_img
+		margin: 20% 0
+
+#hm-info
+	padding: 60px 60px 0
+	height: auto
+
+	h2
+		text-align: left
+
+	p
+		padding-top: 50px
+
+
+.btn_coffee
+
+	background: #3B2314
+	width: 385px
+	height: 50px
+	margin-top: 90px
+
+	a
+		color: #fff
+
+.info-img
+	height: auto
+	
+
+#hme_recom
+	height: auto
+	padding: 60px
+	background: #AFD3BB
+
+
+.cups
+	padding: 30px
+	margin-top: 65px
+	text-align: center
+
+.cp_desc , .ev_desc
+	text-align: center
+
+	h3
+		@extend %headings
+		margin-bottom: 0
+
+.cp_desc
+	p 
+		padding: 17px 0
+
+.ev_desc
+	h3
+		margin-bottom: 10px
+
+	sub
+		color: $brown
+		font-size: 15px
+		font-weight: 600
+
+	p
+		margin-top: 10px
+
+#hme_events
+	padding: 25px
+
+.doodle
+	text-align: center
+
+.suscription
+	padding: 80px 0
+	background: url('images/desk2.jpg')
+	background-position: center center
+	background-size: cover
+	text-align: center
+
+
+	h2
+		font-size: 40px
+		text-transform: capitalize
+		color: $brown
+		margin: 0 0 24px
+
+
+.submit_sus
+	background: #AFD3BB
+	color: $brown
+	width: 200px
+	height: 50px
+	margin: 25px auto
+	border: none
+	font-weight: 600
+	text-transform: uppercase
+
+
+//STORY PAGE //
+
+.stry_info
+	padding: 25px 0 0 25px
+	height: 100%
+	text-align: center
+	height: 100%
+
+	h2
+		margin: 0 0 30px
+
+	img
+		margin: 20px auto 0
+.introd
+	font-size: 18px
+	color: $brown
+	font-weight: 600
+
+
+.left
+	text-align: left
+
+.coffeeshop
+	background: url('images/home-bg.jpg')
+	height: 100%
+	background-size: cover
+
+.values
+	padding: 20px 30px 0
+	position: relative
+	h2
+		font-size: 50px
+
+	.fox
+		position: absolute
+		bottom: 0
+
+.value_info
+	padding: 10px
+	text-align: center
+
+	h2
+		font-size: 72px
+		color: $brown
+		text-align: center
+
+.val
+	padding-top: 15px
+
+.roasting
+	background: url('images/roast_bg.jpg') center -270px
+	background-size: cover
+	height: auto
+	padding: 150px 0 40px
+	color: #fff
+	text-align: center
+
+	h2
+		color: #fff
+		font-size: 72px
+
+	p
+		padding: 30px 50px
+		color: #fff
+
+//PRODUCT PAGE//
+
+.beans
+	text-align: center
+	padding: 0 0 90px
+	background: url('images/beans_bg.jpg')
+	background-size: cover
+
+	h2
+		font-size: 72px
+
+	.row
+		padding: 0 100px
+
+.bn_box
+	position: relative
+
+.bn_info
+	position: absolute
+	bottom: -55px
+
+	h3
+		@extend %headings
+	p
+		font-weight: 600
+.process
+	height: auto
+	text-align: center
+	padding: 0 40px 30px 
+
+	h2
+		font-size: 72px
+		
+	h3
+		@extend %headings
+
+	.row
+		padding-top: 50px
+
+//GALLERY//
+.galeria
+	text-align: center
+	padding: 10px 0 
+	background: #EAD7B0
+
+	h2
+		margin-bottom: 60px
+
+.mod_coffee
+	text-align: left
+
+.btn_gal
+	background: none
+	color: $brown
+	margin: 15px 0
+	width: 150px
+	border-radius: 0
+	border: solid $brown
+	font-family: 'Open Sans'
+	font-weight: 600
+	font-size: 20px
+	text-transform: uppercase
+
+.thumbnail
+	background: none
+	border: none
+
+.modal-header
+	background: #735744
+	border-left: solid $brown 2px
+	border-right: solid $brown 2px 
+	border-top: solid $brown 2px
+	color: #F0EBDC
+	text-transform: capitalize
+
+.close:focus, .close
+	color: #F0EBDC
+
+.modal-body
+	background: #F0EBDC
+	border-left: solid $brown 2px
+	border-right: solid $brown 2px
+	border-bottom: solid $brown 2px
+
+.mod_info , .croassaint
+	h3
+		font-family: 'Pacifico'
+		font-size: 35px
+		color: $brown
+
+	p 
+		color: $brown
+		text-align: left
+
+	ul
+		margin-top: 30px
+
+		li
+			text-align: left
+			color: $brown
+			font-size: 18px
+
+.mod_info
+	p 
+		margin: 20px 0 0 15px
+
+.croassaint
+	p
+		margin: 20px 15px 0 0
+
+
+
+.lettering
+	height: auto
+	background: url('images/letter_bg.jpg') 
+	background-size: cover
+	text-align: center
+
+//CONTACT PAGE//
+.contact_form
+	text-align: center
+
+	h2
+		font-size: 55px
+
+	.ctc_input
+		margin-top: 30px
+
+	.ctc_textarea
+		height: 150px
+		margin-top: 30px
+
+	.submit
+		height: 50px
+		width: 300px
+		background: $brown
+		color: #fff
+		border: none
+		margin-top: 15px
+
+footer
+	background: #3B2314
+	height: 200px
+	color: #fff
+	text-align: center
+	padding-top: 25px
+
+	h4
+		font-family: 'Pacifico'
+		font-size: 30px
+		padding: 0 0 0 45px
+	
+	p
+		color: #fff
+
+		span
+			font-family: 'Pacifico'
+			font-size: 20px
+			text-transform: capitalize
+
+	ul 
+		padding-top: 10px
+
+		li 
+			display: inline
+
+			a
+				color: #fff
+
+.ft_nav
+	ul
+		li
+			a
+				color: #fff
+
+			a:hover
+				letter-spacing: 2px
+
+
+.fa 
+	color: #fff
+	padding: 0 7px
+
+@media only screen and (max-width: 768px)
+	h2
+		font-size: 45px
+	.btn_coffee
+		width: 290px
+		margin: 10px 0 20px
+
+	.info-img
+		padding: 118px 0 0 
+	
+	.ctc_input
+		width: 80%
+		margin: 5px auto
+
+	.intro
+		padding: 0 5%
+	#home 
+		.intro_img
+			margin: 72% 0
+	.stry_info
+		img
+			display: none
+	.beans
+		padding-bottom: 180px
+
+	.bn_info
+		bottom: -160px
+
+	.bn_info
+		position: relative
+		bottom: 0
+
+		p
+			color: #2b1e0e
+			font-weight: bold	
+
+
+
+@media only screen and (max-width: 425px)
+
+	h2
+		font-size: 30px
+	#home 
+		.intro_img
+			margin: 30% 0
+
+	.btn_coffee
+		width: 220px
+		margin: 30px 0
+
+	.coffeeshop
+		height: 300px
+
+	.values
+		.value_info
+			padding-bottom: 0
+
+		.fox
+			position: relative
+	.roasting
+		background-position: center center
+		background-size: cover
+	.bn_box
+		img
+			display: none
+
+	.bn_info
+		position: relative
+		bottom: 0
+		p
+			color: #F0EBDC
+	.beans, .process, .galeria
+		h2
+			font-size: 55px
+

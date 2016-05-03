@@ -1,0 +1,292 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+html, body{
+	height: 100%;
+	margin: 0;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+li{
+	list-style: none;
+}
+
+header{
+	height: 100%;
+	text-align: center;
+	background: url('images/intro.jpg');
+	background-position: 40% 36%;
+
+}
+.menu-hd{
+	margin-top: 30em;
+}
+.menu-hd ul{
+	padding: 0 10px;
+}
+.menu-hd ul li{
+	display: inline;
+}
+#about{
+	height:100%;
+	overflow: hidden;
+	position: relative;
+}
+.menu{
+	float: left;
+	text-align: center;
+	width: 52%;
+	height: 100%;
+	box-sizing: border-box;
+	z-index: 100;
+	position: absolute;
+}
+.menu h2{
+	margin-top: 35%;
+	font-size: 70px;
+	color: #fff;
+	font-weight: 600;
+}
+.menu nav{
+	margin-top: 30%;
+}
+.menu ul{
+	padding: 0 10px;
+}
+.menu li{
+	display: inline-block;
+}
+.menu nav ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.info{
+	float: right;
+	width: 50%;
+	height: 103%;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+.info div{
+	position: relative;
+	left: 50px;
+	height:100%;
+	overflow: scroll;
+	padding: 0 50px 0 10px;
+}
+.info img{
+	margin: 50px 35% 0;
+}
+.info span{
+	color:#1BBC9B; 
+}
+#work{
+	overflow: hidden;
+	height: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+.blue{
+	background-color: #2D3E50;
+}
+.aqua{
+	background-color: #1BBC9B;
+}
+.grey{
+	background-color: #AEAEAE;
+}
+.coffee{
+	background: url('images/cofee.jpg');
+	background-size: cover;
+	background-position: top center;
+}
+.vela{
+	background: url('images/vela.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	color: #fff;
+}
+.zona{
+	background: url('images/zona.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	color: #fff;
+}
+.illust{
+	background: url('images/illust.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	color: #fff;
+}
+.carat{	
+	height: 100%;
+	text-align: center;
+	padding-top: 250px;	
+}
+.carat h3{
+	margin: 0;
+}
+input[type=checkbox]{
+    display: none;
+}
+.portfolio label{
+	position: absolute;
+    margin: 0 44%;
+    cursor: pointer;
+    background: #666;
+    padding: 5px 20px;
+    background-color: #1BBC9B;
+    color: #fff;
+    font-weight: bold;
+    transition: 4s transform ease-out; 
+}
+.work1{
+	top:49%;
+}
+.work2{
+	top: 188%;
+}
+.work3{
+	top: 326%;
+}
+.work4{
+	top:461%;
+}
+.portfolio label:hover {
+	background-color:#2D3E50;
+	transform: scale(1.3);
+	transition: 4s transform ease-in; 
+}
+
+input#TP1[type=checkbox]:checked ~ #coffee,input#TP2[type=checkbox]:checked ~ #zonapoema,input#TP3[type=checkbox]:checked ~ #velapuerca,input#TP4[type=checkbox]:checked ~ #illustration {
+    display: block
+}
+input#TP1[type=checkbox]:checked ~ .work2 {
+    top:338%;
+}
+input#TP1[type=checkbox]:checked ~ .work3 {
+    top:477%;
+}
+input#TP1[type=checkbox]:checked ~ .work4 {
+    top:611%;
+}
+input#TP2[type=checkbox]:checked ~ .work2 {
+    top:188%;
+}
+input#TP2[type=checkbox]:checked ~ .work3 {
+    top:468%;
+}
+input#TP2[type=checkbox]:checked ~ .work4 {
+    top:603%;
+}
+input#TP3[type=checkbox]:checked ~ .work4 {
+    top:652%;
+}
+
+.pj-info{
+	display: none;
+	height: auto;
+	padding: 0 25px;
+}
+.pj-info img{
+	width: 500px;
+	height: auto;
+	margin: 5px 60px;
+}
+.pj-info a{
+	color: #1BBC9B;
+	text-align: center;
+}
+.portfolio{
+	width: 50%;
+	height: 103%;
+	float: right;
+	position: relative;
+	left: 20px;
+	overflow: scroll;
+	box-sizing: border-box;
+}
+#contact{
+	height: 100%;
+	position: relative;
+}
+.contact_info{
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.contact_info p{
+	padding-left: 30px;
+}
+form{
+	padding: 15px 30px;
+}
+form input{
+	width: 100%;
+    height: 31px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+form textarea {
+    width: 100%;
+    height: 90px;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.form_btn{
+	height: 40px;
+    width: 25%;
+    margin: 10px 40%;
+    background: #1BBC9B;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.form_btn:hover{
+	font-weight: bold;
+	background: #2D3E50;
+}
+.social{
+    text-align: center;
+}
+.social a{
+	border: 2px solid #02918C;
+    border-radius: 50%;
+    color: #02918C;
+    font-size: 25px;
+    line-height: 1.9;
+    display: inline-block;
+    height: 50px;
+    margin: 10px 3px;
+    transition: all 0.5s ease 0s;
+    width: 50px;
+}
+
+
+.thanks{
+	text-align: center;
+	margin-top: 4%;
+}
+.thanks h2{
+	font-size: 3em;
+	color: #1BBC9B;
+}
+.thanks_btn{
+	height: 40px;
+    width: 20%;
+    margin: 30px 40%;
+    background: #2D3E50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.thanks_btn:hover{
+	font-weight: bold;
+	background: #1BBC9B;
+}
